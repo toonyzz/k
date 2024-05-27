@@ -1,9 +1,9 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
+<meta charset="UTF-8">
 	<link href="${pageContext.request.contextPath}/css/style.css" rel="stylesheet" type="text/css">
 
 <title>Aggiungi prodotto</title>
@@ -43,8 +43,8 @@
 			<p><input type="text" name="dataUscita" value="" required></p>
 		</div>
 		<div class="tableRow">
-			<p>Quantità:</p>
-			<p><input type="number" name="quantità" value="" required></p>
+			<p>QuantitÃ :</p>
+			<p><input type="number" name="quantitÃ " value="" required></p>
 		</div>
 		<div class="tableRow">
 			<p>Immagine:</p>
@@ -60,7 +60,7 @@
 		</div>
 		<div class="tableRow">	
 			<p>Descrizione dettagliata:</p>
-			<p><input type="text" name="descDett" value=""></p>
+			<p><input type="text" name="descDett" value="" ></p>
 		</div>
 		<div class="tableRow">
 			<p></p>
